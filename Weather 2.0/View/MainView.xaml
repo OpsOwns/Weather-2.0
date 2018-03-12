@@ -17,7 +17,7 @@
             <Label Content="Szukaj" Foreground="Black" FontSize="18" FontFamily="Segoe UI"  Margin="10,0,0,0" VerticalAlignment="Bottom" Height="40" Padding="5,5,1,5" Width="64" HorizontalAlignment="Left" VerticalContentAlignment="Bottom" Focusable="True" FontWeight="Bold"/>
         </StackPanel>
         <StackPanel>
-            <Button x:Name="SearchBtn" Command="{Binding SearchBtnCommand}" Margin="552,10,10.4,564.4" BorderThickness="0" Padding="5,1,5,1" RenderTransformOrigin="0.555,0.315">
+            <Button x:Name="SearchBtn" Command="{Binding SearchBtnCommand}" Margin="575,10,10.6,564.4" BorderThickness="0" Padding="5,1,5,1" RenderTransformOrigin="0.555,0.315">
                 <Image Source="/Content/search.png" RenderTransformOrigin="2.894,0.533" Width="36"></Image>
                 <Button.Style>
                     <Style TargetType="{x:Type Button}">
@@ -125,9 +125,9 @@
                                 </Setter>
                             </Style>
                         </GridView.ColumnHeaderContainerStyle>
-                        <GridViewColumn  Header="Temp"  Width="Auto" DisplayMemberBinding="{Binding Temperature}">
+                        <GridViewColumn  Header="Dzień tygodnia"  Width="Auto" DisplayMemberBinding="{Binding Day}">
                         </GridViewColumn>
-                        <GridViewColumn  Header="Dzień tygodnia" Width="Auto" DisplayMemberBinding="{Binding Day}"></GridViewColumn>
+                        <GridViewColumn  Header="Temp" Width="Auto" DisplayMemberBinding="{Binding Temperature}"></GridViewColumn>
                         <GridViewColumn  Header="Prognoza" Width="Auto" DisplayMemberBinding="{Binding WeatherType}"></GridViewColumn>
                     </GridView>
                 </ListView.View>
