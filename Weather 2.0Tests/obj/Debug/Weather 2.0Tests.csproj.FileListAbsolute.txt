@@ -1,0 +1,35 @@
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Weather 2.0Tests.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Weather 2.0Tests.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Prism.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Weather 2.0.exe
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\xunit.abstractions.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\xunit.assert.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\xunit.core.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\xunit.execution.desktop.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\DotNetProjects.Input.Toolkit.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Prism.Unity.Wpf.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Prism.Wpf.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\System.Windows.Interactivity.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Weather 2.0.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Weather 2.0.exe.config
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Prism.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\xunit.abstractions.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\xunit.assert.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\xunit.core.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\xunit.execution.desktop.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\DotNetProjects.Input.Toolkit.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Prism.Unity.Wpf.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Prism.Wpf.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Debug\pl\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\obj\Debug\Weather 2.0Tests.csprojResolveAssemblyReference.cache
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\obj\Debug\Weather 2.0Tests.csproj.CoreCompileInputs.cache
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\obj\Debug\Weather 2.0Tests.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\obj\Debug\Weather 2.0Tests.pdb

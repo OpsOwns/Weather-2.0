@@ -1,0 +1,34 @@
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Weather 2.0Tests.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Weather 2.0Tests.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Weather 2.0.exe
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\xunit.abstractions.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\xunit.assert.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\xunit.core.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\xunit.execution.desktop.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\DotNetProjects.Input.Toolkit.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Prism.Unity.Wpf.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Prism.Wpf.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Microsoft.Practices.Unity.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Newtonsoft.Json.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\System.Windows.Interactivity.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Weather 2.0.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Weather 2.0.exe.config
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\xunit.abstractions.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\xunit.assert.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\xunit.core.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\xunit.execution.desktop.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\DotNetProjects.Input.Toolkit.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Prism.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Prism.Unity.Wpf.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Prism.Wpf.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Microsoft.Practices.Unity.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Newtonsoft.Json.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\bin\Release\pl\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\obj\Release\Weather 2.0Tests.csprojResolveAssemblyReference.cache
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\obj\Release\Weather 2.0Tests.csproj.CoreCompileInputs.cache
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\obj\Release\Weather 2.0Tests.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0Tests\obj\Release\Weather 2.0Tests.pdb
