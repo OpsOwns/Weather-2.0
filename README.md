@@ -7,7 +7,7 @@
 - Automatic switch pictures of forecast
 
 ## Unit Test
-- Application was tasted by xUnit
+- Application was tested by xUnit
 
 <p align="center">
 <img src=http://preview.ibb.co/eeZ8cn/weather.png /imag>
