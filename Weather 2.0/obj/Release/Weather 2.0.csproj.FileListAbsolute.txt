@@ -1,0 +1,39 @@
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Weather 2.0.exe.config
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Weather 2.0.exe
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Weather 2.0.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\DotNetProjects.DataVisualization.Toolkit.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\DotNetProjects.Input.Toolkit.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\DotNetProjects.Layout.Toolkit.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\DotNetProjects.WPF.Themes.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.ServiceLocation.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.Unity.Configuration.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.Unity.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Newtonsoft.Json.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Prism.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Prism.Unity.Wpf.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Prism.Wpf.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\System.Windows.Interactivity.dll
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\DotNetProjects.DataVisualization.Toolkit.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\DotNetProjects.Input.Toolkit.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\DotNetProjects.Layout.Toolkit.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\DotNetProjects.WPF.Themes.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.ServiceLocation.pdb
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.ServiceLocation.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.Unity.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.Unity.Configuration.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Newtonsoft.Json.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Prism.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Prism.Unity.Wpf.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\bin\Release\Prism.Wpf.xml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\View\MainView.baml
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\View\MainView.g.cs
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\App.g.cs
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\Weather 2.0_MarkupCompile.cache
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\Weather 2.0.g.resources
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\Weather_2._0.Properties.Resources.resources
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\Weather 2.0.csproj.GenerateResource.Cache
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\Weather 2.0.csproj.CoreCompileInputs.cache
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\Weather 2.0.exe
+D:\Projekty\Wpf\Weather 2.0\Weather 2.0\obj\Release\Weather 2.0.pdb

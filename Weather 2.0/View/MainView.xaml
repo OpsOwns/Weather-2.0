@@ -1,0 +1,137 @@
+﻿<Window x:Class="Weather_2._0.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism ="http://prismlibrary.com/"
+        xmlns:controls="clr-namespace:System.Windows.Controls;assembly=DotNetProjects.Input.Toolkit"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        mc:Ignorable="d"
+        Title="Pogoda" Height="688.8" Width="655.8" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen" FontSize="14" FontFamily="Segoe UI Light" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom" Padding="5" Icon="/Weather 2.0;component/icon.ico" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="/Weather 2.0;component/Content/background.jpg"/>
+    </Window.Background>
+    <Grid>
+        <StackPanel>
+            <Label Content="Szukaj" Foreground="Black" FontSize="18" FontFamily="Segoe UI"  Margin="10,0,0,0" VerticalAlignment="Bottom" Height="40" Padding="5,5,1,5" Width="64" HorizontalAlignment="Left" VerticalContentAlignment="Bottom" Focusable="True" FontWeight="Bold"/>
+        </StackPanel>
+        <StackPanel>
+            <Button x:Name="SearchBtn" Command="{Binding SearchBtnCommand}" Margin="552,10,10.4,564.4" BorderThickness="0" Padding="5,1,5,1" RenderTransformOrigin="0.555,0.315">
+                <Image Source="/Content/search.png" RenderTransformOrigin="2.894,0.533" Width="36"></Image>
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Setter Property="Background" Value="Transparent"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="{x:Type Button}">
+                                    <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="0">
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Border>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </StackPanel>
+        <StackPanel>
+            <controls:AutoCompleteBox
+                x:Name="AutoCompleteBox"
+                ItemsSource="{Binding CityCollection, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                SelectedItem="" 
+                Text="{Binding Search, Mode=TwoWay ,UpdateSourceTrigger=PropertyChanged}" 
+                IsTextCompletionEnabled="True" 
+                FilterMode="Contains"
+                Focusable="True"
+                Margin="74,5,80.6,5" FontSize="18"
+                Height="35"
+                VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="495" HorizontalContentAlignment="Center" VerticalContentAlignment="Bottom">
+                <controls:AutoCompleteBox.InputBindings>
+                    <KeyBinding Command="{Binding KeyUpEventCommandEnter, UpdateSourceTrigger=PropertyChanged}" Key="Enter"/>
+                </controls:AutoCompleteBox.InputBindings>
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="KeyUp">
+                        <i:InvokeCommandAction Command="{Binding KeyUpEventCommand, UpdateSourceTrigger=PropertyChanged}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </controls:AutoCompleteBox>
+        </StackPanel>
+        <StackPanel>
+            <Image Source="{Binding ImageSource, UpdateSourceTrigger=PropertyChanged}" Margin="325,70,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Height="102" Width="221" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform ScaleY="-1" ScaleX="-1"/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="180.543"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+        </StackPanel>
+        <StackPanel>
+            <Label x:Name="TempLbl" Content="{Binding Temperature, Mode=TwoWay ,UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="20,96,0,0" VerticalAlignment="Top" Foreground="Black"  FontSize="18" RenderTransformOrigin="1.509,0.071" FontFamily="Segoe UI"/>
+        </StackPanel>
+        <StackPanel>
+            <Label x:Name="CityLbl" Content="{Binding City, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="20,62,0,0" VerticalAlignment="Top" Foreground="Black"  FontSize="18" FontWeight="ExtraBold" RenderTransformOrigin="0.509,0.071" FontFamily="Segoe UI"/>
+        </StackPanel>
+        <StackPanel>
+            <Label x:Name="PresureLbl" Content="{Binding Presure, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="20,130,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="18" RenderTransformOrigin="0.509,0.071" FontFamily="Segoe UI"/>
+        </StackPanel>
+        <StackPanel>
+            <Label x:Name="WindLbl" Content="{Binding Wind, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="19,163,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="18" RenderTransformOrigin="0.509,0.071" FontFamily="Segoe UI"/>
+        </StackPanel>
+        <StackPanel>
+            <Label x:Name="HumidityLbl" Content="{Binding Humidity, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="19,197,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="18" RenderTransformOrigin="0.509,0.071" FontFamily="Segoe UI"/>
+        </StackPanel>
+        <StackPanel>
+            <Label Content="Created By Ops" Margin="252,621,235.6,0.2" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="20" Height="38" Width="162" FontWeight="Bold" RenderTransformOrigin="0.49,1.123" FontStyle="Italic" FontFamily="Segoe UI" HorizontalContentAlignment="Center" Background="#00000000" Foreground="#FFC426C5"/>
+        </StackPanel>
+        <StackPanel>
+            <ListView x:Name="ItemList"  ItemsSource="{Binding ForecastColletion, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center"  Foreground="White" Margin="0,240.6,0,60.6" Background="Transparent" FontSize="18" BorderThickness="0"  Padding="-1" Width="649.6" BorderBrush="#FF2F2323" VerticalAlignment="Center" Height="367.2" ScrollViewer.CanContentScroll="False" UseLayoutRounding="False" TextOptions.TextHintingMode="Animated" FontFamily="Segoe UI" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                        <Setter Property="Foreground" Value="black" />
+                        <Setter Property="FontWeight" Value="ExtraBold" />
+                        <Setter Property="HorizontalAlignment" Value="Stretch"></Setter>
+                        <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                        <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                        <Style.Triggers>
+                            <Trigger Property="IsSelected" Value="true" >
+                                <Setter Property="Foreground" Value="Black" />
+                                <Setter Property="Background" Value="Yellow" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="LightYellow"/>
+                                <Setter Property="Foreground" Value="black"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView>
+                        <GridView.ColumnHeaderContainerStyle>
+                            <Style TargetType="{x:Type GridViewColumnHeader}">
+                                <Setter Property="Foreground" Value="black" />
+                                <Setter Property="FontWeight" Value="ExtraBold" />
+                                <Setter Property="Visibility" Value="{Binding Sight, UpdateSourceTrigger=PropertyChanged}"></Setter>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type GridViewColumnHeader}">
+                                            <TextBlock   Text="{TemplateBinding Content}"  Padding="5" Width="{TemplateBinding Width}" TextAlignment="Center" />
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </GridView.ColumnHeaderContainerStyle>
+                        <GridViewColumn  Header="Temp"  Width="Auto" DisplayMemberBinding="{Binding Temperature}">
+                        </GridViewColumn>
+                        <GridViewColumn  Header="Dzień tygodnia" Width="Auto" DisplayMemberBinding="{Binding Day}"></GridViewColumn>
+                        <GridViewColumn  Header="Prognoza" Width="Auto" DisplayMemberBinding="{Binding WeatherType}"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </StackPanel>
+    </Grid>
+</Window>
